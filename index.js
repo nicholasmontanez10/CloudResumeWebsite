@@ -8,3 +8,8 @@ function toggleExperience() {
     const experienceSection = document.querySelector('.resume-container');
     experienceSection.classList.toggle('active');
 }
+
+function toggleExperience2() {
+    const experienceSection = document.querySelector('.resume-container');
+    experienceSection.classList.toggle('active');
+}
