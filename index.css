@@ -61,6 +61,15 @@ h2:hover {
   margin-bottom: 20px;
 }
 
+.experience-content2 {
+  display: none;
+  margin-top: 15px;
+}
+
+.experience-content2 .job {
+  margin-bottom: 20px;
+}
+
 .job-title {
   font-weight: bold;
   font-size: 1.2em;
