@@ -9,3 +9,8 @@ visitCountElement.textContent = visitCount;
 // Increment visit count and update on the webpage
 visitCount++;
 localStorage.setItem('visitCount', visitCount.toString());
+
+function toggleExperience() {
+    const experienceSection = document.querySelector('.resume-container');
+    experienceSection.classList.toggle('active');
+}
