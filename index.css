@@ -67,6 +67,7 @@ h2:hover {
   color: #555;
 }
 
-.active .section-content {
+/* Ensure the active section is displayed */
+.active {
   display: block;
 }
