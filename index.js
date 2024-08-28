@@ -1,15 +1,12 @@
-const viewCountElement = document.getElementById('viewCount');
-let views = localStorage.getItem('viewCounter') || 0;
-views++;
-localStorage.setItem('viewCounter', views);
-viewCountElement.textContent = views;
+        // View Counter Logic
+        const viewCountElement = document.getElementById('viewCount');
+        let views = localStorage.getItem('viewCounter') || 0;
+        views++;
+        localStorage.setItem('viewCounter', views);
+        viewCountElement.textContent = views;
 
-function toggleExperience() {
-    const experienceSection = document.querySelector('.resume-container');
-    experienceSection.classList.toggle('active');
-}
-
-function toggleExperience2() {
-    const experienceSection = document.querySelector('.resume-container');
-    experienceSection.classList.toggle('active');
-}
+        // Toggle Section
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.classList.toggle('active');
+        }

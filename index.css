@@ -52,40 +52,21 @@ h2:hover {
   color: #777;
 }
 
-.experience-content {
+.section-content {
   display: none;
   margin-top: 15px;
 }
 
-.experience-content .job {
-  margin-bottom: 20px;
+.section-content ul {
+  padding-left: 20px;
+  margin: 0;
 }
 
-.experience-content2 {
-  display: none;
-  margin-top: 15px;
-}
-
-.experience-content2 .job {
-  margin-bottom: 20px;
-}
-
-.job-title {
-  font-weight: bold;
-  font-size: 1.2em;
-  color: #333;
-}
-
-.job-dates {
-  font-style: italic;
-  color: #555;
+.section-content ul li {
   margin-bottom: 5px;
+  color: #555;
 }
 
-.job-description {
-  color: #666;
-}
-
-.active .experience-content {
+.active .section-content {
   display: block;
 }
